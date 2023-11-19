@@ -77,7 +77,7 @@ public class Main {
                         forward = false;
                     }
                     System.out.println("Enter Value: ");
-                    String menuItem = scanner.nextLine().toUpperCase().substring(0, 1);
+                    String menuItem = scanner.nextLine().toUpperCase().substring(0, 1);//scanner input always just below prompt
 
                     switch (menuItem) {
                         case "F":

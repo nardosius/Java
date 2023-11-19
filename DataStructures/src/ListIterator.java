@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-record Place(String name, int distance){
+record Place(String name, int distance){//can use record to create simple object to store in a list
     @Override
     public String toString(){
         return String.format("%s (%d)", name, distance);
