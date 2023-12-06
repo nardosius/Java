@@ -14,7 +14,7 @@ public class Main {
         dog.makeNoise();
         doAnimalStuff(dog );
 
-        ArrayList<Animal> animals = new ArrayList<>();
+        ArrayList<Animal> animals = new ArrayList<>();/*can use abstract as arraylist data type*/
         animals.add(dog);
         animals.add(new Dog("German Shepard", "big", 150));
         animals.add(new Fish("Goldfish", "small", 1));
@@ -33,7 +33,7 @@ public class Main {
     }
 
     private static void doAnimalStuff(Animal animal) {//notice use of abstract class as parameters
-
+    /*Cannot instantiate an abstract class but can use as data type like above.*/
         animal.makeNoise();
         animal.move("slow");
 
