@@ -1,6 +1,10 @@
 package progentis.com;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+record Transactions(double balance, Date date) {}
 
 public class Customer {
     String customerName;
@@ -8,7 +12,7 @@ public class Customer {
     String email;
     String phoneNumber;
     double balance;
-    ArrayList<Double> transactions;
+    List<Transactions> transactions;//create a transaction record that has both amount and date/time stamp
 
     public Customer(String customerName, String branchName, String email, String phoneNumber, double balance) {
         this.customerName = customerName;
@@ -17,7 +21,9 @@ public class Customer {
         this.phoneNumber = phoneNumber;
         this.balance = balance;
         this.transactions = new ArrayList<>(5000);
-        transactions.add(balance);
+        Date date = new Date();
+        Transactions firstTransaction = new Transactions(balance, date);
+        transactions.add(firstTransaction);
     }
 
     Customer updateInformation(Customer customer, String updateName,
@@ -68,9 +74,9 @@ public class Customer {
         System.out.println();
         System.out.println("-".repeat(30));
         System.out.println("**Customer " + customerName + " Transactions**");
-        for (Double d : transactions) {
-            System.out.println("Transactions: " + "$" + d);
-            totalBalance += d;
+        for (Transactions t : transactions) {
+            System.out.println("Transactions: " + "$" + t.balance() + "---" + t.date());
+            totalBalance += t.balance();
         }
         System.out.println("Total balance: " + "$" + totalBalance);
     }
