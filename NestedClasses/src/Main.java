@@ -32,5 +32,11 @@ public class Main {
         for (StoreEmployee e : storeEmployees) {
             System.out.println(e);
         }
+
+        Meal regularMeal = new Meal();
+        System.out.println(regularMeal);
+
+        Meal uberMeal = new Meal(1.68);
+        System.out.println(uberMeal);
     }
 }
