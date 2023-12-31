@@ -1,4 +1,4 @@
-package progentis.com;
+
 
 import java.util.ArrayList;
 
@@ -18,7 +18,9 @@ public class Bank {
     }
 
     void branchReport() {
-
+    for (Branch b : branches) {
+        System.out.println(b.getBranchName());
+    }
     }
 
 

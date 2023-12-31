@@ -1,4 +1,4 @@
-package progentis.com;
+
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -18,6 +18,16 @@ public class Branch {
         this.customers = new ArrayList<>(5000);
         this.branchTransactions = new ArrayList<>();
         this.archive = new ArrayList<>();
+    }
+
+     String getBranchName() {
+        return this.branchName;
+    }
+
+    void getCustomer() {
+        for (Customer c : customers) {
+            System.out.println(c.customerName);
+        }
     }
     void addNewCustomer(Customer customer) {
         for (Customer c : customers) {
