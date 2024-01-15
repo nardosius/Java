@@ -37,7 +37,7 @@ public class Main {
         regularMeal.addToppings("ketchup", "mayo", "pickles", "cheddar", "bacon");
         System.out.println(regularMeal);
 
-//        Meal uberMeal = new Meal(1.68);
-//        System.out.println(uberMeal);
+        Meal uberMeal = new Meal(0.68);
+        System.out.println(uberMeal);
     }
 }
