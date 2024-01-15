@@ -60,7 +60,7 @@ public double getTotal() {
     }
 
     private class Burger extends Item {
-
+        //Variable declaration
         private enum Extra {AVOCADO, BACON, CHEESE, KETCHUP, MAYO, LETTUCE, PICKLES, ONIONS, MUSTARD;
         private double getPrice() {
             return switch (this) {
@@ -70,6 +70,7 @@ public double getTotal() {
             };
         }
         }
+        //Variable declaration
 private List<Item> toppings = new ArrayList<>();
          Burger(String name) {
             super(name, "burger", 5.0);

@@ -33,11 +33,48 @@ public class Main {
             System.out.println(e);
         }
 
-        Meal regularMeal = new Meal();
+        /*Meal regularMeal = new Meal();
         regularMeal.addToppings("ketchup", "mayo", "pickles", "cheddar", "bacon");
         System.out.println(regularMeal);
 
         Meal uberMeal = new Meal(0.68);
-        System.out.println(uberMeal);
+        System.out.println(uberMeal);*/
+
+        System.out.println("*".repeat(30));
+        System.out.println("With Pig Latin Names");
+        addPigLatinName(storeEmployees);
+    }
+/*//The following is an example of a local class implementation. In this scenario, the class actually exists inside a method.*/
+    public static void addPigLatinName(List<? extends StoreEmployee> list) {
+        String lastName = "Piggy";
+        class DecoratedEmployee extends StoreEmployee implements Comparable<DecoratedEmployee> {
+            private String pigLatinName;
+            private Employee originalInstance;
+
+            public DecoratedEmployee(String pigLatinName, Employee originalInstance) {
+                this.pigLatinName = pigLatinName + " " + lastName;
+                this.originalInstance = originalInstance;
+            }
+
+            @Override
+            public String toString() {
+                return originalInstance.toString() + " " + pigLatinName;
+            }
+
+            @Override
+            public int compareTo(DecoratedEmployee o) {
+                return pigLatinName.compareTo(o.pigLatinName);
+            }
+        }
+        List<DecoratedEmployee> newList = new ArrayList<>(list.size());//list is from (List<? extends StoreEmployee list)
+        for (var employee : list) {
+            String name = employee.getName();
+            String pigLatin = name.substring(1) + name.charAt(0) + "ay";
+            newList.add(new DecoratedEmployee(pigLatin, employee));
+        }
+        newList.sort(null);
+        for (var dEmployee : newList) {
+            System.out.println(dEmployee.originalInstance.getName() + " " + dEmployee.pigLatinName);
+        }
     }
 }

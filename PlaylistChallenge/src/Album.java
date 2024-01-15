@@ -64,12 +64,12 @@ public class Album {
     }
 
     /****NEW INNER CLASS BEGIN********************************************************************/
-    private static class SongList {//creates a playlist and adds to List of playlists
+    static class SongList {//creates a playlist and adds to List of playlists
         private static List<Song> songs;//holds songs for playlist
         private String listTitle;//Title of playlist
         private String album;
 
-        private SongList(String album, String listTitle) {
+        SongList(String album, String listTitle) {
             super();
             this.album = album;
             this.listTitle = listTitle;

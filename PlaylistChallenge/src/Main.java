@@ -21,6 +21,9 @@ public class Main {
         album.addSongToAlbum(songs,"Run Away", 3);
         album.printAlbum(songs);*/
 
+        Album.SongList songList = new Album.SongList("My Album", "First Playlist");
+        /*The inner class must be at least package-private to access externally via enclosing class*/
+
         album.addNewPlaylist("My List");
         album.addNewPlaylist("Her List");
         album.addNewPlaylist("Kids List");
