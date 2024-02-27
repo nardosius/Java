@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1856a08d-2fc3-41c5-8113-82c6db8560a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progentis/com/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsChallengeBuchalka/src/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsChallengeBuchalka/src/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsChallengeBuchalka/src/PokerGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsChallengeBuchalka/src/PokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsChallengeBuchalka/src/Ranking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progentis/com/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SetOpsChallenge/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetsAndMaps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetsAndMaps/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728b3680-8e83-485b-bcf6-12e831cce4b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ChainingLambdas/ChainingLambdas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/CollectionsOverview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsOverview/src/progentis/com/PlayingCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LambdaExpressionChallenge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LambdasBuchalkaSolution/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/MethodAndLambdaBuchalka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodAndLambdaBuchalka/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodReferenceChallenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodReferences/MethodReferences.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnumProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnumProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SetOpsChallenge/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsChallenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetsAndMaps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetsAndMaps/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
